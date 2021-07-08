@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 class Solution {
+    @SuppressWarnings("ConstantConditions")
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
